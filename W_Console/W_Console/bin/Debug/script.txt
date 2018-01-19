@@ -1,0 +1,8 @@
+load
+backup
+restore 0
+select 0
+convert quads
+texanim C:\Program Files\Acclaim Entertainment\Re-Volt\levels\anime\frames.txt
+animate
+revolt

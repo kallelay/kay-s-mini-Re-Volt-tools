@@ -1,0 +1,6 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartWorkingDirectory>C:\Games\Acclaim Entertainment\Re-Volt\levels\</StartWorkingDirectory>
+    <StartArguments>C:\Games\Acclaim Entertainment\Re-Volt\VolThor\scripts\script.txt</StartArguments>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console\W_Console\bin\Debug\W_Console.exe
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console\W_Console\bin\Debug\W_Console.pdb
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console\W_Console\bin\Debug\W_Console.xml
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console\W_Console\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console\W_Console\obj\Debug\W_Console.Form1.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console\W_Console\obj\Debug\W_Console.Resources.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console\W_Console\obj\Debug\W_Console.vbproj.GenerateResource.Cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console\W_Console\obj\Debug\W_Console.exe
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console\W_Console\obj\Debug\W_Console.xml
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console\W_Console\obj\Debug\W_Console.pdb

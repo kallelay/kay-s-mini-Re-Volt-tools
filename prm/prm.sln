@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+# SharpDevelop 3.2.1.6466
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "prm", "prm\prm.vbproj", "{A539E713-4941-4625-9037-1D1DE565D2DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A539E713-4941-4625-9037-1D1DE565D2DE}.Debug|x86.Build.0 = Debug|x86
+		{A539E713-4941-4625-9037-1D1DE565D2DE}.Debug|x86.ActiveCfg = Debug|x86
+		{A539E713-4941-4625-9037-1D1DE565D2DE}.Release|x86.Build.0 = Release|x86
+		{A539E713-4941-4625-9037-1D1DE565D2DE}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

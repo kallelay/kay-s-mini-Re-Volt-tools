@@ -1,0 +1,87 @@
+)))))))))))))))))))))))))))))))))))))))))))))))))))))
+)))                              KDL               ))
+)))                                                ))
+)))))))))))))))))))))))))))))))))))))))))))))))))))))
+Shadow Algorithm			23:29 20/12/2011 [NOT INCLUDED]
+Shading Algorithm			19:39 21/12/2011
+
+   report by Burner94 -> FIXED 		21:17 21/12/2011
+
+
+//////////////////////////////////////////////////
+/////// ABOUT THIS PACKAGE
+//////////////////////////////////////////////////
+Thanks for Burner94 for directly reporting the problem
+of 'upside down' shading
+
+The problem is now fixed with "Inverse" checkbox 
+check it if you see the shading inversed!
+
+		
+
+((((((((((((((((((((((((((((((((((((((((((((((((((
+)))))))))))))        INTRO )))))))))))))))))))))))
+((((((((((((((((((((((((((((((((((((((((((((((((((
+
+-- General Intro --
+
+ This is Car Shading Algorithm (still in Beta)
+
+  It's my Christmas Present (Xmas no Prezentu da yo!)
+  Basically, it calculates the "diffuse" light and project
+  it to each polygon (For copyrights, I got help from Internet)
+
+
+-- back up --
+Don't worry about "ruining", it will create ONLY ONE backup per session*
+*: If you create another backup, the first will be removed
+The backup
+
+
+-- Render problems --
++ Since this is a GDI+ algorithm, it would require a fast CPU
++ There is no Z-Buffer algorithm (created in one day), thus 
+|   render is not really accurate
++ On Window Refresh (repaint), a render is required to get back the shape
+---------------------------------------------------------------------------
+
+((((((((((((((((((((((((((((((((((((((((((((((((((
+)) INTERESTED ABOUT HOW WAS CREATED)(not really)))
+((((((((((((((((((((((((((((((((((((((((((((((((((
+
+ It's about projecting Diffuse Light to each poly
+
+Created in Native .NET graphics (known as GDI+)
+Created using VB.NET 2008 (.NET 3.5 framework is required)
+The prm loader is from Car::Load()
+The prm exporter is from PRM [tool]
+The shader's algorithm (theorically) was done in half A4 page
+
+
+
+
+
+((((((((((((((((((((((((((((((((((((((((((((((((((
+)))))))))))))       WHAT NEXT?))))))))))))))))))))
+((((((((((((((((((((((((((((((((((((((((((((((((((
+
+All the steps and stuffs (and later source code) will
+be exposed to public in  Re-Volt Live
+
+http://z3.invisionfree.com/Revolt_live
+
+as well as ORP
+http://z3.invisionfree.com/Our_Revolt_Pub
+
+and then my blog
+
+http://thekdl.wordpress.com
+
+
+////////////////////////////////////////////////
+///////////////// COPYRIGHTS                  //
+////////////////////////////////////////////////
+
+  Launch time: Freeware, closed Source
+	    Later will be:  GNU GPL
+

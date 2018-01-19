@@ -1,0 +1,2 @@
+var loc;var resA,resB,resC;loc=window.location.toString();resA=true;resB=(loc.indexOf("act=Post")==-1);resC=(loc.indexOf("CODE=04")==-1);if(resA&&resB&&resC)setTimeout("javascript:timeout();",10*60*1000);}
+function timeout(){if(document.REPLIER==undefined && refresh){window.location.reload();}else{if(document.REPLIER.Post.value=="")window.location.reload();else setTimeout("timeout()",10*60*100);}

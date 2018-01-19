@@ -1,0 +1,17 @@
+
+You represent the "Me" who's reading this and has to accept the licence as a condition to use this software.
+whether YOU is a human or a non-human (company, object, computer).
+
+You must follow these:
+ (1) You may NOT modify the source code or reverse engineer the software.
+ (2) You can NOT sell it .
+ (3) You MUST NOT rename it to suit your name or to claim it's yours.
+
+As a result "I" as Kallel Ahmed Yahia has these duties:
+ (1) To support you while you're using this software.
+ (2) To maintain the software and update it from bugs.
+ (3) To ensure that everything goes alright.
+
+However, you can become a "sharer".
+ (1) You have to e-mail me at KAY dot Procom at gmail dot com to obtain the source.
+ (2) You take responsabilities for whatever act you do on the source and the program.

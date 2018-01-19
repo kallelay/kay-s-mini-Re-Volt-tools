@@ -1,0 +1,28 @@
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Debug\TrackPacker.vbproj.GenerateResource.Cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\bin\Debug\Config.exe
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\bin\Debug\Config.pdb
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\bin\Debug\Config.xml
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Debug\Configure.Form1.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Debug\Configure.Resources.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Debug\Config.exe
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Debug\Config.xml
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Debug\Config.pdb
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\bin\Debug\Config.exe.manifest
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\bin\Debug\Config.application
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Debug\Config.exe.manifest
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Debug\Config.application
+K:\TrackPacker\TrackPacker\obj\Debug\Config.exe
+K:\TrackPacker\TrackPacker\obj\Debug\Config.xml
+K:\TrackPacker\TrackPacker\obj\Debug\Config.pdb
+K:\TrackPacker\TrackPacker\bin\Debug\Config.exe.manifest
+K:\TrackPacker\TrackPacker\bin\Debug\Config.application
+K:\TrackPacker\TrackPacker\bin\Debug\Config.exe
+K:\TrackPacker\TrackPacker\bin\Debug\Config.pdb
+K:\TrackPacker\TrackPacker\bin\Debug\Config.xml
+K:\TrackPacker\TrackPacker\obj\Debug\ResolveAssemblyReference.cache
+K:\TrackPacker\TrackPacker\obj\Debug\Configure.Form1.resources
+K:\TrackPacker\TrackPacker\obj\Debug\Configure.Resources.resources
+K:\TrackPacker\TrackPacker\obj\Debug\TrackPacker.vbproj.GenerateResource.Cache
+K:\TrackPacker\TrackPacker\obj\Debug\Config.exe.manifest
+K:\TrackPacker\TrackPacker\obj\Debug\Config.application

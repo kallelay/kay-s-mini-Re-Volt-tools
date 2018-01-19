@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+oVolt
+</name>
+</assembly>
+<members>
+<member name="M:oVolt.TexLib.TexUtil.InitTexturing">
+	<summary>
+ Initialize OpenGL state to enable alpha-blended texturing.
+ Disable again with GL.Disable(EnableCap.Texture2D).
+ Call this before drawing any texture, when you boot your
+ application, eg. in OnLoad() of GameWindow or Form_Load()
+ if you're building a WinForm app.
+ </summary>
+</member><member name="M:oVolt.TexLib.TexUtil.CreateRGBTexture(System.Int32,System.Int32,System.Byte[])">
+	<summary>
+ Create an opaque OpenGL texture object from a given byte-array of r,g,b-triplets.
+ Make sure width and height is 1, 2, .., 32, 64, 128, 256 and so on in size since all
+ 3d graphics cards support those dimensions. Not necessarily square. Don't forget
+ to call GL.DeleteTexture(int) when you don't need the texture anymore (eg. when switching
+ levels in your game).
+ </summary>
+</member><member name="M:oVolt.TexLib.TexUtil.CreateRGBATexture(System.Int32,System.Int32,System.Byte[])">
+	<summary>
+ Create a translucent OpenGL texture object from given byte-array of r,g,b,a-triplets.
+ See CreateRGBTexture for more info.
+ </summary>
+</member><member name="M:oVolt.TexLib.TexUtil.CreateTextureFromBitmap(System.Drawing.Bitmap)">
+	<summary>
+ Create an OpenGL texture (translucent or opaque) from a given Bitmap.
+ 24- and 32-bit bitmaps supported.
+ </summary>
+</member><member name="M:oVolt.TexLib.TexUtil.CreateTextureFromFile(System.String)">
+	<summary>
+ Create an OpenGL texture (translucent or opaque) by loading a bitmap
+ from file. 24- and 32-bit bitmaps supported.
+ </summary>
+</member><member name="T:oVolt.TexLib.TexUtil">
+	<summary>
+ The TexUtil class is released under the MIT-license.
+ /Olof Bjarnason
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,13 @@
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\bin\Release\7z.dll
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\obj\Release\ResolveAssemblyReference.cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\obj\Release\TrackInstaller.vbproj.GenerateResource.Cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\bin\Release\track_installer.exe
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\bin\Release\track_installer.pdb
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\bin\Release\track_installer.xml
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\obj\Release\Track_Installer.Form1.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\obj\Release\Track_Installer.Form2.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\obj\Release\Track_Installer.Form3.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\obj\Release\Track_Installer.Resources.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\obj\Release\track_installer.exe
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\obj\Release\track_installer.xml
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackInstaller\TrackInstaller\obj\Release\track_installer.pdb

@@ -1,0 +1,11 @@
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\getUV\getUV\bin\Debug\getUV.exe
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\getUV\getUV\bin\Debug\getUV.pdb
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\getUV\getUV\bin\Debug\getUV.xml
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\getUV\getUV\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\getUV\getUV\obj\Debug\getUV.Form1.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\getUV\getUV\obj\Debug\getUV.Form2.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\getUV\getUV\obj\Debug\getUV.Resources.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\getUV\getUV\obj\Debug\getUV.vbproj.GenerateResource.Cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\getUV\getUV\obj\Debug\getUV.exe
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\getUV\getUV\obj\Debug\getUV.xml
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\getUV\getUV\obj\Debug\getUV.pdb

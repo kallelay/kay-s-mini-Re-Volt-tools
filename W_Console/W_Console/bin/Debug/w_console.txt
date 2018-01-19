@@ -1,0 +1,144 @@
+[align=center][color=blue][SIZE=7]World loading[/SIZE][/color][/align]
+[b][u]Loading your first world[/u][/b]
+get the full path to your track's .w file (for example C:\Games\pc\revolt\revolt\levels\radiosity2\[color=green]radiosity2.w[/color]
+then go to console and write 
+[CODE]load C:\Games\pc\revolt\revolt\levels\radiosity2\radiosity2.w[/CODE]
+[SIZE=1]load = open[/SIZE]
+
+now in your information bar you'll be able to see
+[IMG]http://img30.imageshack.us/img30/3818/loadedv.jpg[/IMG]
+
+[u]Note:[/u] To avoid loading and reloading and rereloading, you can load once and then use:
+[CODE]load lastfile[/CODE] (lastfile or "last file", both syntaxes are right)
+
+writing [CODE]load[/CODE] is equivalent to "load lastfile"
+
+[dohtml]<hr/>[/dohtml]
+
+[b][u]Counting[/u][/b]
+[CODE]count meshes ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?{count meshes}[/CODE]
+[CODE]count vx ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? {count vertices in current mesh}[/CODE]
+
+[dohtml]<hr/>[/dohtml]
+[align=center][color=blue][SIZE=7]mesh handling and selecting[/SIZE][/color][/align]
+[b][u]Getting meshes by Texture[/u][/b]
+Now, about getting meshes, it's (no fuss) very hard, because you'll have to guess and etc...
+Of course I'm kidding but not really joking because you really have to guess
+
+Now, let's say the mesh is a floor which uses bitmap: A
+
+
+[CODE]getByTex A[/CODE]
+is equivalent to
+[CODE]getByTex 0[/CODE]
+
+possible: -1->26 ; A -> Z (however, current exporters only supports A->J)
+
+[color=green][b]With world file is loaded and mesh loaded, it's possible to modify now[/b][/color]
+
+getByTex doesn't pick/select meshes!
+[dohtml]<hr/>[/dohtml]
+[b][u]Listall polies[/u][/b]
+In case you want to list every poly, you'll have to write
+[CODE]listall[/CODE] (it doesn't need mesh selection in order to work)
+[dohtml]<hr/>[/dohtml]
+
+[b][u]Select a mesh[/u][/b]
+to select/pick a mesh, you'll have to write (later will explain batch select meshes)
+[CODE]select <meshnumber>[/CODE]
+where meshnumber is a number ranging from 0 to [mesh count - 1]
+
+for example: [CODE]select 0[/CODE] to select the first mesh
+
+[dohtml]<hr/>[/dohtml]
+[b][u]list/getinfo[/u][/b]
+getInfo will write some small infos about current mesh
+[CODE]getInfo[/CODE]
+
+as for list, it will list all your polies inside current mesh
+[CODE]list[/CODE]
+
+[dohtml]<hr/>[/dohtml]
+
+[align=center][color=blue][SIZE=7]mesh modification[/SIZE][/color][/align]
+[b][u]Shading meshes[/u][/b]
+after selecting a mesh, it's time to shade it
+There are 2 ways of shading here: Shading with transparency; Normal shading
+
+Transparency means to set an alpha value, if alpha = 0 then the mesh is transparent, if alpha=255 the mesh is opaque 
+
+[CODE]shade A R G B ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?{shade with transparence, if A=0: transparent}
+shade 0 0 0 0 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? {trick to get transparent mesh}
+shade R G B ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?{shade to R G B}[/CODE]
+About RGB value, you can get it from Paint (Tools -> Modify colors) or any other places
+[dohtml]<hr/>[/dohtml]
+[b][u]convert triangular to quads[/u][/b]
+so it'd be used in Texture animation
+[CODE]convert quads[/CODE]
+
+[dohtml]<hr/>[/dohtml]
+[b][u]Export current mesh (to .prm file)[/u][/b] (experimental)
+[CODE]export <prmfile> ? ? ? ? ? ? ? ? ? {export prm file}[/CODE]
+ex: [CODE]export[/CODE] (to auto-name file)
+or [CODE]export lolprmfile.prm[/CODE]
+
+[dohtml]<hr/>[/dohtml]
+[align=center][color=blue][SIZE=7]World file stuffs[/SIZE][/color][/align]
+you can backup and restore your world file through:
+[CODE]backup[/CODE]
+while backing up you'll find the backup's code (for example saved to ..._0.w" => backup code =0)
+
+to restore your track; you can write
+[CODE]restore[/CODE] which is to restore the latest backup
+to restore the other backup (0 for example) write
+[CODE] restore 0[/CODE]
+
+[dohtml]<hr/>[/dohtml]
+[align=center][color=blue][SIZE=7]Console[/SIZE][/color][/align]
+[b][u]Clearing screen[/u][/b]
+[CODE]cls[/CODE]
+[dohtml]<hr/>[/dohtml]
+[b][u]explore current directory (world directory)[/u][/b]
+[CODE]explore[/CODE] 
+[b][u]save current text console to the log file[/u][/b]
+save to "my documents"
+[CODE]log[/CODE]
+
+[dohtml]<hr/>[/dohtml]
+[align=center][color=blue][SIZE=7]Preview[/SIZE][/color][/align]
+[b][u]Setting nVolt/FreeVolts[/u][/b]
+
+to note: nVolt > FreeVolts (unlike it's planned)
+thus, if you install nVolt, freevolts will be disabled
+
+Once nVolt or freeVolts are installed properly, W_console will be able to detect them and use them
+
+
+[u]setting nVolt[/u]
+[URL=http://www.box.net/shared/cmhdrqvb2hui4tucfy87]Download nVolt[/URL] then extract it to "my documents" (your documents of course)
+make sure that the path is: <mydocs>\nvolt\nvolt.exe
+
+[u]Setting FreeVolts[/u]
+[URL=http://www.box.net/shared/0tftdz7b3vc7cd73rdme]Download Freevolts[/URL] and put it in [color=red]one[/color] of those directions:
+1. Windows Root
+2. System32 Root
+3. near of the application
+
+[dohtml]<hr/>[/dohtml]
+[b][u]Preview[/u][/b]
+with FreeVolts or nVolt already installed, you can preview a world file or meshes (experimental)
+[CODE]preview *[/CODE] is equivalent to [CODE]preview world[/CODE] (with it, you can preview the whole world)
+If you want to force FreeVolts to preview your world file
+[CODE]fvwpreview[/CODE]
+
+For Previewing meshes, you'll have to pick a mesh before then preview it
+[CODE]preview[/CODE] equivalent to [CODE]preview mesh[/CODE]
+To force FreeVolts to load the file, you can write
+[CODE]fvpreview[/CODE]
+
+preview will use nVolt if it's present; will use FreeVolts in case it's present/nVolt is absent
+[dohtml]<hr/>[/dohtml]
+[align=center][color=blue][SIZE=7]Batch-powered functions[/SIZE][/color][/align]
+[b][u]export each[/u][/b]
+[CODE]export each[/CODE]
+and equivalent to [CODE]for each : export[/CODE] which will be explained later

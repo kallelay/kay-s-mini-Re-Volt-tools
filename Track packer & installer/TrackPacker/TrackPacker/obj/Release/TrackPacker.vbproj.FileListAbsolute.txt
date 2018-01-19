@@ -1,0 +1,14 @@
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Release\ResolveAssemblyReference.cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Release\TrackPacker.vbproj.GenerateResource.Cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\bin\Release\Config.exe
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\bin\Release\Config.pdb
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\bin\Release\Config.xml
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Release\Configure.Form1.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Release\Configure.Resources.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Release\Config.exe
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Release\Config.xml
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Release\Config.pdb
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\bin\Release\Config.exe.manifest
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\bin\Release\Config.application
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Release\Config.exe.manifest
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\TrackPacker\TrackPacker\obj\Release\Config.application

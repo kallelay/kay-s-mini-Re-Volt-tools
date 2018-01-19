@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CAR_WINDOW
+</name>
+</assembly>
+<members>
+<member name="F:CAR_WINDOW.Car_Model.MyModel">
+	<summary>
+ The current model
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CAR_WINDOW.Car_Model.#ctor(System.String)">
+	<summary>
+ Constructor of PRM entity
+ </summary>
+	<param name="filepath">The path to PRM file</param>
+	<remarks></remarks>
+</member><member name="M:CAR_WINDOW.Car_Model.Export(System.String)">
+	<summary>
+ Exports current PRM 
+ </summary>
+	<param name="filepath">The path of the new PRM file</param>
+	<remarks></remarks>
+</member><member name="T:CAR_WINDOW.Car_Model">
+	<summary>
+ Model is PRM's loading engine
+ </summary>
+	<remarks>@Car Load Loading engine</remarks>
+</member>
+</members>
+</doc>

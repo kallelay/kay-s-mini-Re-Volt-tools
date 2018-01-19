@@ -1,0 +1,10 @@
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\bin\Debug\CarLighting.exe
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\bin\Debug\CarLighting.pdb
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\bin\Debug\CarLighting.xml
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\obj\Debug\CarLighting.Form1.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\obj\Debug\CarLighting.Resources.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\obj\Debug\CarLighting.vbproj.GenerateResource.Cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\obj\Debug\CarLighting.exe
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\obj\Debug\CarLighting.xml
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\obj\Debug\CarLighting.pdb

@@ -1,0 +1,13 @@
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\bin\Debug\Riko.exe
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\bin\Debug\Riko.pdb
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\bin\Debug\Riko.xml
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\bin\Debug\OpenTK.GLControl.xml
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\bin\Debug\OpenTK.xml
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\obj\Debug\Riko.Form1.resources
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\obj\Debug\Riko.Resources.resources
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\obj\Debug\Riko.vbproj.GenerateResource.Cache
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\obj\Debug\Riko.exe
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\obj\Debug\Riko.xml
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\obj\Debug\Riko.pdb
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\Riko\CarLighting\obj\Debug\Riko.Main_.resources

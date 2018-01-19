@@ -1,0 +1,120 @@
+   Sub LoadOneGarageCar()
+        Dim UsedPath As String = Garage
+        _car.Theory.MainInfos.Tpage = Replace(_car.Theory.MainInfos.Tpage, "cars\", "")
+
+        Dim ftex = (Replace(UsedPath & _car.Theory.MainInfos.Tpage, ",", "."))
+
+
+        '  IO.File.AppendAllText(Environ("temp") & "carmanrld.log", "ftex:" & ftex & vbNewLine)
+        '  CARBMP.MakeTransparent(System.Drawing.Color.FromArgb(0, 0, 0))
+        '  MkDir(Environ("temp") & "\carmanrld\")
+        '  Randomize()
+        '
+        '   Dim ftex = Environ("temp") & "\carmanrld\" & _car.Theory.MainInfos.Tpage.Split("\").Last & "cartx" & Int(Rnd() * 50000) & ".png"
+        '
+        '    CARBMP.Save(ftex)
+        '   CARBMP.Dispose()
+
+        'Render.ScnMgr.Dispose(True)
+        Application.DoEvents()
+        setProgress(22)
+        If (_car.Theory.Body.modelNumber) <> -1 Then
+            If IO.File.Exists(Replace(Replace(UsedPath & _car.Theory.MainInfos.Model(_car.Theory.Body.modelNumber).Replace("cars\", ""), Chr(34), ""), ",", ".")) = True Then
+                cBODY = New Car_Model(Replace(UsedPath & _car.Theory.MainInfos.Model(_car.Theory.Body.modelNumber).Replace("cars\", ""), Chr(34), ""))
+                cBODY.Texture_ = ftex
+                cBODY.Render()
+                Try
+                    cBODY.ScnNode.Position = _car.Theory.Body.Offset ' - _car.Theory.RealInfos.COM / 2
+
+                Catch
+                End Try
+
+
+            End If
+        Else
+            Debugger.Break()
+        End If
+
+        Application.DoEvents()
+        setProgress(35)
+
+        For i = 0 To 3
+            If _car.Theory.wheel(i).modelNumber <> -1 Then
+                If IO.File.Exists(Replace(UsedPath & Replace(_car.Theory.MainInfos.Model(_car.Theory.wheel(i).modelNumber).Replace("cars\", ""), Chr(34), ""), ",", ".")) = True Then
+                    _Wheel(i) = New Car_Model(UsedPath & Replace(_car.Theory.MainInfos.Model(_car.Theory.wheel(i).modelNumber).Replace("cars\", ""), Chr(34), ""))
+                    If _Wheel(i) IsNot Nothing Then
+                        _Wheel(i).Texture_ = ftex
+                        _Wheel(i).Render()
+                        '  _Wheel(i).ScnNode.DebugObject = True
+                        '  _Wheel(i).ScnNode.DebugDataVisible = DebugSceneType.BoundingBox
+                        _Wheel(i).ScnNode.Position = _car.Theory.wheel(i).Offset(1) '+ _car.Theory.RealInfos  '+ _car.Theory.wheel(i).Offset(2) '- _car.Theory.Body.Offset
+
+
+
+                    End If
+                End If
+
+            End If
+        Next
+
+        Application.DoEvents()
+        setProgress(45)
+        For i = 0 To 3
+            If _car.Theory.Spring(i).modelNumber <> -1 Then
+
+                _Spring(i) = New Car_Model(UsedPath & _car.Theory.MainInfos.Model(_car.Theory.Spring(i).modelNumber).Replace("cars\", "").Replace(Chr(34), ""))
+                _Spring(i).Texture_ = ftex
+                _Spring(i).Render()
+
+                '_Spring(i).ScnNode.Scale = _car.Theory.Spring(i).Length '(, 1)
+                _Spring(i).ScnNode.Position = _car.Theory.Spring(i).Offset
+                _Spring(i).ScnNode.Scale.SetLength(_car.Theory.Spring(i).Length)
+
+
+
+
+            End If
+
+
+        Next
+
+        Application.DoEvents()
+        setProgress(55)
+
+       
+
+        Application.DoEvents()
+        setProgress(65)
+
+       
+        Application.DoEvents()
+        setProgress(75)
+
+       
+        Application.DoEvents()
+        setProgress(85)
+
+       
+        Application.DoEvents()
+        setProgress(95)
+
+        setProgress(100)
+        Panel2.Hide()
+
+        'STANDARD, CUSTOM
+        If InStr(TextBox1.Text, _car.DirName, CompareMethod.Text) > 0 Then
+            Label2.Text = "STANDARD"
+            Label2.ForeColor = Drawing.Color.Red
+        Else
+            Label2.Text = "CUSTOM"
+            Label2.ForeColor = Drawing.Color.Green
+        End If
+
+
+        LoadPics()
+        Dim Th As New Threading.Thread(AddressOf NetIt)
+        Th.Start(_car.Theory.MainInfos.Name)
+
+        '  NetIt(_car.Theory.MainInfos.Name)
+
+    End Sub

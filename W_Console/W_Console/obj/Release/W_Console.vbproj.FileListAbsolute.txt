@@ -1,0 +1,23 @@
+\\VBOXSVR\W_Console_2.0\W_Console\bin\Release\W_Console NET 2.0.exe.config
+\\VBOXSVR\W_Console_2.0\W_Console\bin\Release\W_Console NET 2.0.exe
+\\VBOXSVR\W_Console_2.0\W_Console\bin\Release\W_Console NET 2.0.pdb
+\\VBOXSVR\W_Console_2.0\W_Console\bin\Release\W_Console NET 2.0.xml
+\\VBOXSVR\W_Console_2.0\W_Console\obj\Release\ResolveAssemblyReference.cache
+\\VBOXSVR\W_Console_2.0\W_Console\obj\Release\W_Console.Form1.resources
+\\VBOXSVR\W_Console_2.0\W_Console\obj\Release\W_Console.Form2.resources
+\\VBOXSVR\W_Console_2.0\W_Console\obj\Release\W_Console.Resources.resources
+\\VBOXSVR\W_Console_2.0\W_Console\obj\Release\W_Console.vbproj.GenerateResource.Cache
+\\VBOXSVR\W_Console_2.0\W_Console\obj\Release\W_Console NET 2.0.exe
+\\VBOXSVR\W_Console_2.0\W_Console\obj\Release\W_Console NET 2.0.xml
+\\VBOXSVR\W_Console_2.0\W_Console\obj\Release\W_Console NET 2.0.pdb
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console 2.0\W_Console\obj\Release\ResolveAssemblyReference.cache
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console 2.0\W_Console\obj\Release\W_Console.Form1.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console 2.0\W_Console\obj\Release\W_Console.Resources.resources
+C:\Users\kallel\Documents\Visual Studio 2008\Projects\W_Console 2.0\W_Console\obj\Release\W_Console.vbproj.GenerateResource.Cache
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\W_Console 2.0\W_Console\bin\Release\W_Console NET 3.exe.config
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\W_Console 2.0\W_Console\bin\Release\W_Console NET 3.exe
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\W_Console 2.0\W_Console\bin\Release\W_Console NET 3.pdb
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\W_Console 2.0\W_Console\bin\Release\W_Console NET 3.xml
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\W_Console 2.0\W_Console\obj\Release\W_Console NET 3.exe
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\W_Console 2.0\W_Console\obj\Release\W_Console NET 3.xml
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\W_Console 2.0\W_Console\obj\Release\W_Console NET 3.pdb

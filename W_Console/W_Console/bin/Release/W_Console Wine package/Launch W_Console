@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+wine W_Console\ NET\ 2.0.exe
+

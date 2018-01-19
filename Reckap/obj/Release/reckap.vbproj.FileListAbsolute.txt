@@ -1,0 +1,13 @@
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\bin\Release\reckap.exe
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\bin\Release\reckap.pdb
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\bin\Release\reckap.xml
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\bin\Release\Ionic.Zip.dll
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\reckap.Form1.resources
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\reckap.Resources.resources
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\reckap.readme_generator.resources
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\reckap.textviewer.resources
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\reckap.vbproj.GenerateResource.Cache
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\reckap.exe
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\reckap.xml
+C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\reckap.pdb
