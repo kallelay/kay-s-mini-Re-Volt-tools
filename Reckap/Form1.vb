@@ -77,7 +77,7 @@ Public Class Form1
             For Each item In foo
 
                 Try
-                    IO.File.Move(item.Split("\").Last, Replace(item.Split("\").Last, dirName, TextBox1.Text))
+                    IO.File.Move(item.Split("\").Last, Replace(item.Split("\").Last, dirName, TextBox1.Text).ToLower)
                 Catch ex As Exception
 
                 End Try
@@ -97,6 +97,7 @@ Public Class Form1
     End Sub
 
     Private Sub TextBox2_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox2.TextChanged
+        Return
         Label17.Hide()
         INF.NAME = TextBox2.Text
         INF.Save()

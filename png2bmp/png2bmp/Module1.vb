@@ -13,7 +13,7 @@ Module Module1
         Next
 
         Dim dirname = Split(CurDir, "\")(Split(CurDir, "\").Length - 1)
-        For i = 0 To 9
+        For i = 0 To 25
             If Not IO.File.Exists((CurDir() & "\" & dirname & Chr(65 + i) & ".png")) Then perror((CurDir() & "\" & dirname & Chr(65 + i) & ".png doesn't exist")) : Continue For
             Console.WriteLine("Converting " & dirname & Chr(65 + i) & ".png")
             Convert(CurDir() & "\" & dirname & Chr(65 + i) & ".png")
@@ -44,7 +44,7 @@ Module Module1
     Sub WriteHello()
         Console.WriteLine("--------------------------------------------")
         Console.WriteLine(" PNG2BMP - part of ASE2RV9")
-        Console.WriteLine("         by A.Y.K (c) 2013-2014")
+        Console.WriteLine("         by A.Y.K (c) 2013-2014, 2019")
         Console.WriteLine("      licensed under GNU GPL")
         Console.WriteLine("--------------------------------------------")
     End Sub

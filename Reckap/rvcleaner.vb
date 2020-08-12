@@ -2,20 +2,21 @@
 Public Class Cleaner
 #Region "Helper functions"
     Private Shared Function getNormalFiles(ByVal trackname$) As String()
-        Dim temp(130) As String
+        Dim temp(29 + 26 * 7) As String
 
+        Dim offs = 26
         Dim i As Integer
-        For i = 97 To 106
+        For i = 97 To 97 + offs - 1
             temp(i - 97) = trackname & Chr(i) & ".bmp"
-            temp(i - 97 + 10) = trackname & Chr(i) & ".bmq"
-            temp(i - 97 + 20) = trackname & Chr(i) & ".bmo"
-            temp(i - 97 + 30) = trackname & Chr(i) & ".bmr"
-            temp(i - 97 + 40) = trackname & Chr(i) & ".bms"
-            temp(i - 97 + 50) = trackname & Chr(i) & ".bmm"
-            temp(i - 97 + 60) = trackname & Chr(i) & ".bmn"
+            temp(i - 97 + 1 * offs) = trackname & Chr(i) & ".bmq"
+            temp(i - 97 + 2 * offs) = trackname & Chr(i) & ".bmo"
+            temp(i - 97 + 3 * offs) = trackname & Chr(i) & ".bmr"
+            temp(i - 97 + 4 * offs) = trackname & Chr(i) & ".bms"
+            temp(i - 97 + 5 * offs) = trackname & Chr(i) & ".bmm"
+            temp(i - 97 + 6 * offs) = trackname & Chr(i) & ".bmn"
         Next '30
 
-        Dim j = 81
+        Dim j = offs * 7 + 1 '81
         temp(j) = trackname & ".fin"
         temp(j + 1) = trackname & ".fob"
         temp(j + 2) = trackname & ".lit"
@@ -45,6 +46,7 @@ Public Class Cleaner
         temp(j + 26) = "sky_tp.bmp"
         temp(j + 27) = "sky_lt.bmp"
         temp(j + 28) = "sky_rt.bmp"
+        temp(j + 29) = "custom_animations.txt"
         ' trolley
 
         'prm ncp times

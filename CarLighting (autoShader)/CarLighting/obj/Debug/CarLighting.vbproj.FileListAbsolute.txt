@@ -8,3 +8,5 @@ C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\ob
 C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\obj\Debug\CarLighting.exe
 C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\obj\Debug\CarLighting.xml
 C:\Users\kallel\Documents\Visual Studio 2008\Projects\CarLighting\CarLighting\obj\Debug\CarLighting.pdb
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\CarLighting (autoShader)\CarLighting\obj\Debug\CarLighting.exe
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\CarLighting (autoShader)\CarLighting\obj\Debug\CarLighting.xml

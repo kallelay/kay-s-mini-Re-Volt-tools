@@ -1,0 +1,10 @@
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\CarLighting (autoShader)\CarLighting\bin\Release\CarLighting.exe
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\CarLighting (autoShader)\CarLighting\bin\Release\CarLighting.pdb
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\CarLighting (autoShader)\CarLighting\bin\Release\CarLighting.xml
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\CarLighting (autoShader)\CarLighting\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\CarLighting (autoShader)\CarLighting\obj\Release\CarLighting.Form1.resources
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\CarLighting (autoShader)\CarLighting\obj\Release\CarLighting.Resources.resources
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\CarLighting (autoShader)\CarLighting\obj\Release\CarLighting.vbproj.GenerateResource.Cache
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\CarLighting (autoShader)\CarLighting\obj\Release\CarLighting.exe
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\CarLighting (autoShader)\CarLighting\obj\Release\CarLighting.xml
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\CarLighting (autoShader)\CarLighting\obj\Release\CarLighting.pdb

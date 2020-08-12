@@ -11,3 +11,18 @@ C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Debug\re
 C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Debug\reckap.readme_generator.resources
 C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Debug\reckap.textviewer.resources
 C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\bin\Debug\Ionic.Zip.dll
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\bin\Debug\reckap.exe
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\bin\Debug\reckap.pdb
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\bin\Debug\reckap.xml
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Debug\reckap.Form1.resources
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Debug\reckap.Resources.resources
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Debug\reckap.readme_generator.resources
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Debug\reckap.textviewer.resources
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Debug\reckap.vbproj.GenerateResource.Cache
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Debug\reckap.vbproj.CoreCompileInputs.cache
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Debug\reckap.exe
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Debug\reckap.xml
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Debug\reckap.pdb
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\bin\Debug\reckap.exe.config
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Debug\reckap.vbprojAssemblyReference.cache
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Debug\reckap.vbproj.CopyComplete

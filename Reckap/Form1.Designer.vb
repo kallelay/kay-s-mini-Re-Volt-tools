@@ -23,108 +23,109 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.Panel1 = New System.Windows.Forms.Panel
-        Me.Panel11 = New System.Windows.Forms.Panel
-        Me.Button14 = New System.Windows.Forms.Button
-        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel
-        Me.Label42 = New System.Windows.Forms.Label
-        Me.Label41 = New System.Windows.Forms.Label
-        Me.Label36 = New System.Windows.Forms.Label
-        Me.ListBox6 = New System.Windows.Forms.ListBox
-        Me.Label34 = New System.Windows.Forms.Label
-        Me.Label35 = New System.Windows.Forms.Label
-        Me.Panel10 = New System.Windows.Forms.Panel
-        Me.Label30 = New System.Windows.Forms.Label
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton
-        Me.Button2 = New System.Windows.Forms.Button
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox
-        Me.Label32 = New System.Windows.Forms.Label
-        Me.Label40 = New System.Windows.Forms.Label
-        Me.Label39 = New System.Windows.Forms.Label
-        Me.Label38 = New System.Windows.Forms.Label
-        Me.Label33 = New System.Windows.Forms.Label
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox
-        Me.Button12 = New System.Windows.Forms.Button
-        Me.Label31 = New System.Windows.Forms.Label
-        Me.Label37 = New System.Windows.Forms.Label
-        Me.Panel9 = New System.Windows.Forms.Panel
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox
-        Me.Button10 = New System.Windows.Forms.Button
-        Me.Button11 = New System.Windows.Forms.Button
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox
-        Me.Button9 = New System.Windows.Forms.Button
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox
-        Me.Button13 = New System.Windows.Forms.Button
-        Me.Label29 = New System.Windows.Forms.Label
-        Me.ListBox5 = New System.Windows.Forms.ListBox
-        Me.Label28 = New System.Windows.Forms.Label
-        Me.ListBox4 = New System.Windows.Forms.ListBox
-        Me.Label26 = New System.Windows.Forms.Label
-        Me.Label25 = New System.Windows.Forms.Label
-        Me.Button7 = New System.Windows.Forms.Button
-        Me.Button6 = New System.Windows.Forms.Button
-        Me.Label27 = New System.Windows.Forms.Label
-        Me.Label24 = New System.Windows.Forms.Label
-        Me.Panel8 = New System.Windows.Forms.Panel
-        Me.Button5 = New System.Windows.Forms.Button
-        Me.ListBox3 = New System.Windows.Forms.ListBox
-        Me.Label12 = New System.Windows.Forms.Label
-        Me.Panel7 = New System.Windows.Forms.Panel
-        Me.Label23 = New System.Windows.Forms.Label
-        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown
-        Me.ListBox2 = New System.Windows.Forms.ListBox
-        Me.Label21 = New System.Windows.Forms.Label
-        Me.Label16 = New System.Windows.Forms.Label
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox
-        Me.Label15 = New System.Windows.Forms.Label
-        Me.Label14 = New System.Windows.Forms.Label
-        Me.NumericUpDown11 = New System.Windows.Forms.NumericUpDown
-        Me.Label13 = New System.Windows.Forms.Label
-        Me.ListBox1 = New System.Windows.Forms.ListBox
-        Me.Label11 = New System.Windows.Forms.Label
-        Me.Button4 = New System.Windows.Forms.Button
-        Me.Panel6 = New System.Windows.Forms.Panel
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox
-        Me.Label22 = New System.Windows.Forms.Label
-        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox
-        Me.Button8 = New System.Windows.Forms.Button
-        Me.Label19 = New System.Windows.Forms.Label
-        Me.Panel3 = New System.Windows.Forms.Panel
-        Me.Label20 = New System.Windows.Forms.Label
-        Me.Label18 = New System.Windows.Forms.Label
-        Me.Label17 = New System.Windows.Forms.Label
-        Me.Label10 = New System.Windows.Forms.Label
-        Me.Label9 = New System.Windows.Forms.Label
-        Me.Label8 = New System.Windows.Forms.Label
-        Me.TextBox2 = New System.Windows.Forms.TextBox
-        Me.Label7 = New System.Windows.Forms.Label
-        Me.Label6 = New System.Windows.Forms.Label
-        Me.TextBox1 = New System.Windows.Forms.TextBox
-        Me.Label3 = New System.Windows.Forms.Label
-        Me.Panel2 = New System.Windows.Forms.Panel
-        Me.Panel4 = New System.Windows.Forms.Panel
-        Me.trpoly = New System.Windows.Forms.Label
-        Me.Panel5 = New System.Windows.Forms.Panel
-        Me.trlen = New System.Windows.Forms.Label
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Label4 = New System.Windows.Forms.Label
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox
-        Me.trname = New System.Windows.Forms.Label
-        Me.Label5 = New System.Windows.Forms.Label
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.Button3 = New System.Windows.Forms.Button
-        Me.ofdw = New System.Windows.Forms.OpenFileDialog
-        Me.ofdpic = New System.Windows.Forms.OpenFileDialog
-        Me.Panel12 = New System.Windows.Forms.Panel
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox
-        Me.Label43 = New System.Windows.Forms.Label
-        Me.CheckedListBox2 = New System.Windows.Forms.CheckedListBox
-        Me.Label44 = New System.Windows.Forms.Label
-        Me.Label45 = New System.Windows.Forms.Label
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.CheckedListBox2 = New System.Windows.Forms.CheckedListBox()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.Panel11 = New System.Windows.Forms.Panel()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.ListBox6 = New System.Windows.Forms.ListBox()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.ListBox5 = New System.Windows.Forms.ListBox()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.ListBox4 = New System.Windows.Forms.ListBox()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.ListBox3 = New System.Windows.Forms.ListBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.ListBox2 = New System.Windows.Forms.ListBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.NumericUpDown11 = New System.Windows.Forms.NumericUpDown()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.trpoly = New System.Windows.Forms.Label()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.trlen = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.trname = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.ofdw = New System.Windows.Forms.OpenFileDialog()
+        Me.ofdpic = New System.Windows.Forms.OpenFileDialog()
         Me.Panel1.SuspendLayout()
+        Me.Panel12.SuspendLayout()
         Me.Panel11.SuspendLayout()
         Me.Panel10.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -141,7 +142,6 @@ Partial Class Form1
         Me.Panel2.SuspendLayout()
         Me.Panel4.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel12.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
@@ -164,6 +164,61 @@ Partial Class Form1
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1640, 698)
         Me.Panel1.TabIndex = 0
+        '
+        'Panel12
+        '
+        Me.Panel12.BackColor = System.Drawing.Color.LightGray
+        Me.Panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel12.Controls.Add(Me.CheckBox3)
+        Me.Panel12.Controls.Add(Me.Label43)
+        Me.Panel12.Controls.Add(Me.CheckedListBox2)
+        Me.Panel12.Controls.Add(Me.Label44)
+        Me.Panel12.Location = New System.Drawing.Point(786, 313)
+        Me.Panel12.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel12.Name = "Panel12"
+        Me.Panel12.Size = New System.Drawing.Size(378, 245)
+        Me.Panel12.TabIndex = 57
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Location = New System.Drawing.Point(5, 15)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
+        Me.CheckBox3.TabIndex = 44
+        Me.CheckBox3.UseVisualStyleBackColor = True
+        '
+        'Label43
+        '
+        Me.Label43.AutoEllipsis = True
+        Me.Label43.BackColor = System.Drawing.Color.Honeydew
+        Me.Label43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label43.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label43.ForeColor = System.Drawing.Color.Teal
+        Me.Label43.Location = New System.Drawing.Point(17, 205)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(339, 30)
+        Me.Label43.TabIndex = 43
+        Me.Label43.Text = "Select files to zip" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "If you're not feeling like zipping, ignore this step by clic" &
+    "king next."
+        Me.Label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'CheckedListBox2
+        '
+        Me.CheckedListBox2.FormattingEnabled = True
+        Me.CheckedListBox2.Location = New System.Drawing.Point(3, 29)
+        Me.CheckedListBox2.Name = "CheckedListBox2"
+        Me.CheckedListBox2.Size = New System.Drawing.Size(353, 154)
+        Me.CheckedListBox2.TabIndex = 40
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Location = New System.Drawing.Point(3, 0)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(58, 14)
+        Me.Label44.TabIndex = 37
+        Me.Label44.Text = "Files to zip"
         '
         'Panel11
         '
@@ -406,8 +461,8 @@ Partial Class Form1
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(165, 82)
         Me.Label33.TabIndex = 54
-        Me.Label33.Text = "1) Make sure that .W is there " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2) Make sure that .inf is there" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "3) Make sure tha" & _
-            "t on the right, the right picture of the track is seen" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label33.Text = "1) Make sure that .W is there " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2) Make sure that .inf is there" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "3) Make sure tha" &
+    "t on the right, the right picture of the track is seen" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'CheckBox1
         '
@@ -755,14 +810,14 @@ Partial Class Form1
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(349, 35)
         Me.Label16.TabIndex = 46
-        Me.Label16.Text = "No matter what skybox you have chosen (except None) if you have put it inside ""CU" & _
-            "STOM"" folder, it'll be used instead of default Re-Volt skybox."
+        Me.Label16.Text = "No matter what skybox you have chosen (except None) if you have put it inside ""CU" &
+    "STOM"" folder, it'll be used instead of default Re-Volt skybox."
         '
         'ComboBox1
         '
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"None", "Ship 1", "Ship 2", "West", "nhood"})
+        Me.ComboBox1.Items.AddRange(New Object() {"None", "Ship 1", "Ship 2", "West", "nhood", "X", "Y", "Z"})
         Me.ComboBox1.Location = New System.Drawing.Point(278, 56)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(87, 22)
@@ -868,8 +923,8 @@ Partial Class Form1
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(328, 32)
         Me.Label22.TabIndex = 43
-        Me.Label22.Text = "Clicking Next will not remove files. Only the button ""deleted CHECKED items"" can." & _
-            "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " The deleted files are sent to recycle bin."
+        Me.Label22.Text = "Clicking Next will not remove files. Only the button ""deleted CHECKED items"" can." &
+    "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " The deleted files are sent to recycle bin."
         Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'CheckedListBox1
@@ -889,6 +944,15 @@ Partial Class Form1
         Me.Button8.TabIndex = 39
         Me.Button8.Text = "&delete CHECKED items"
         Me.Button8.UseVisualStyleBackColor = True
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Location = New System.Drawing.Point(59, 15)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(275, 14)
+        Me.Label45.TabIndex = 37
+        Me.Label45.Text = "you may want to click next if you want to skip this step."
         '
         'Label19
         '
@@ -995,19 +1059,21 @@ Partial Class Form1
         '
         'TextBox2
         '
+        Me.TextBox2.Enabled = False
         Me.TextBox2.Location = New System.Drawing.Point(135, 144)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(137, 20)
         Me.TextBox2.TabIndex = 31
+        Me.TextBox2.Text = "'"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(22, 147)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(103, 14)
+        Me.Label7.Size = New System.Drawing.Size(63, 14)
         Me.Label7.TabIndex = 30
-        Me.Label7.Text = "Change Track name"
+        Me.Label7.Text = "Track name"
         '
         'Label6
         '
@@ -1069,11 +1135,11 @@ Partial Class Form1
         'trpoly
         '
         Me.trpoly.AutoSize = True
-        Me.trpoly.Font = New System.Drawing.Font("Segoe WP SemiLight", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.trpoly.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.trpoly.Location = New System.Drawing.Point(41, 95)
         Me.trpoly.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.trpoly.Name = "trpoly"
-        Me.trpoly.Size = New System.Drawing.Size(25, 13)
+        Me.trpoly.Size = New System.Drawing.Size(24, 13)
         Me.trpoly.TabIndex = 22
         Me.trpoly.Text = "</>"
         '
@@ -1186,70 +1252,6 @@ Partial Class Form1
         '
         Me.ofdpic.Filter = "Picture file (*.bmp *.png *.jpg)|*.bmp;*.jpg;*.png"
         '
-        'Panel12
-        '
-        Me.Panel12.BackColor = System.Drawing.Color.LightGray
-        Me.Panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel12.Controls.Add(Me.CheckBox3)
-        Me.Panel12.Controls.Add(Me.Label43)
-        Me.Panel12.Controls.Add(Me.CheckedListBox2)
-        Me.Panel12.Controls.Add(Me.Label44)
-        Me.Panel12.Location = New System.Drawing.Point(786, 313)
-        Me.Panel12.Margin = New System.Windows.Forms.Padding(2)
-        Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(378, 245)
-        Me.Panel12.TabIndex = 57
-        '
-        'CheckBox3
-        '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(5, 15)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(15, 14)
-        Me.CheckBox3.TabIndex = 44
-        Me.CheckBox3.UseVisualStyleBackColor = True
-        '
-        'Label43
-        '
-        Me.Label43.AutoEllipsis = True
-        Me.Label43.BackColor = System.Drawing.Color.Honeydew
-        Me.Label43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label43.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Label43.ForeColor = System.Drawing.Color.Teal
-        Me.Label43.Location = New System.Drawing.Point(17, 205)
-        Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(339, 30)
-        Me.Label43.TabIndex = 43
-        Me.Label43.Text = "Select files to zip" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "If you're not feeling like zipping, ignore this step by clic" & _
-            "king next."
-        Me.Label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'CheckedListBox2
-        '
-        Me.CheckedListBox2.FormattingEnabled = True
-        Me.CheckedListBox2.Location = New System.Drawing.Point(3, 29)
-        Me.CheckedListBox2.Name = "CheckedListBox2"
-        Me.CheckedListBox2.Size = New System.Drawing.Size(353, 154)
-        Me.CheckedListBox2.TabIndex = 40
-        '
-        'Label44
-        '
-        Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(3, 0)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(58, 14)
-        Me.Label44.TabIndex = 37
-        Me.Label44.Text = "Files to zip"
-        '
-        'Label45
-        '
-        Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(59, 15)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(275, 14)
-        Me.Label45.TabIndex = 37
-        Me.Label45.Text = "you may want to click next if you want to skip this step."
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 14.0!)
@@ -1258,13 +1260,14 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(1676, 646)
         Me.Controls.Add(Me.Panel1)
         Me.Font = New System.Drawing.Font("Arial", 8.25!)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
-        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.Text = "ReKCAP"
         Me.Panel1.ResumeLayout(False)
+        Me.Panel12.ResumeLayout(False)
+        Me.Panel12.PerformLayout()
         Me.Panel11.ResumeLayout(False)
         Me.Panel11.PerformLayout()
         Me.Panel10.ResumeLayout(False)
@@ -1290,8 +1293,6 @@ Partial Class Form1
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel12.ResumeLayout(False)
-        Me.Panel12.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub

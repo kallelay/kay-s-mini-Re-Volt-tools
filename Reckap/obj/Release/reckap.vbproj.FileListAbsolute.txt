@@ -11,3 +11,18 @@ C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\
 C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\reckap.exe
 C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\reckap.xml
 C:\Users\Kallel\Documents\Visual Studio 2008\Projects\reckap\reckap\obj\Release\reckap.pdb
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\bin\Release\reckap.exe.config
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\bin\Release\reckap.exe
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\bin\Release\reckap.pdb
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\bin\Release\reckap.xml
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Release\reckap.vbprojAssemblyReference.cache
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Release\reckap.Form1.resources
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Release\reckap.Resources.resources
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Release\reckap.readme_generator.resources
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Release\reckap.textviewer.resources
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Release\reckap.vbproj.GenerateResource.cache
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Release\reckap.vbproj.CoreCompileInputs.cache
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Release\reckap.vbproj.CopyComplete
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Release\reckap.exe
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Release\reckap.xml
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\Reckap\obj\Release\reckap.pdb

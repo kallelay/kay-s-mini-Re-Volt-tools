@@ -32,8 +32,8 @@ Public Class Car_Model
 
 
         'Vert/Poly count
-        MyModel.polynum = J.ReadInt16()
-        MyModel.vertnum = J.ReadInt16()
+        MyModel.polynum = J.ReadUInt16()
+        MyModel.vertnum = J.ReadUInt16()
 
 
 
@@ -53,10 +53,10 @@ Public Class Car_Model
             MyModel.polyl(i).Tpage = J.ReadInt16
 
 
-            MyModel.polyl(i).vi0 = J.ReadInt16
-            MyModel.polyl(i).vi1 = J.ReadInt16
-            MyModel.polyl(i).vi2 = J.ReadInt16
-            MyModel.polyl(i).vi3 = J.ReadInt16
+            MyModel.polyl(i).vi0 = J.ReadUInt16
+            MyModel.polyl(i).vi1 = J.ReadUInt16
+            MyModel.polyl(i).vi2 = J.ReadUInt16
+            MyModel.polyl(i).vi3 = J.ReadUInt16
 
 
 
@@ -129,8 +129,8 @@ Public Class Car_Model
 
 
         'Vert/Poly count
-        J.Write(Convert.ToInt16(MyModel.polynum))
-        J.Write(Convert.ToInt16(MyModel.vertnum))
+        J.Write(Convert.ToUInt16(MyModel.polynum))
+        J.Write(Convert.ToUInt16(MyModel.vertnum))
 
         Dim i As Integer
 
@@ -143,10 +143,10 @@ Public Class Car_Model
             J.Write(Convert.ToInt16(MyModel.polyl(i).type))
             J.Write(Convert.ToInt16(MyModel.polyl(i).tpage))
 
-            J.Write(Convert.ToInt16(MyModel.polyl(i).vi0))
-            J.Write(Convert.ToInt16(MyModel.polyl(i).vi1))
-            J.Write(Convert.ToInt16(MyModel.polyl(i).vi2))
-            J.Write(Convert.ToInt16(MyModel.polyl(i).vi3))
+            J.Write(Convert.ToUInt16(MyModel.polyl(i).vi0))
+            J.Write(Convert.ToUInt16(MyModel.polyl(i).vi1))
+            J.Write(Convert.ToUInt16(MyModel.polyl(i).vi2))
+            J.Write(Convert.ToUInt16(MyModel.polyl(i).vi3))
 
             J.Write(Convert.ToInt32(MyModel.polyl(i).c0))
             J.Write(Convert.ToInt32(MyModel.polyl(i).c1))
@@ -197,7 +197,7 @@ Public Class Car_Model
 
     Public Structure MODEL_POLY_LOAD
         Public type, Tpage As Int16
-        Public vi0, vi1, vi2, vi3 As Int16
+        Public vi0, vi1, vi2, vi3 As UInt16
         Public c0, c1, c2, c3 As Long
         Public u0, v0, u1, v1, u2, v2, u3, v3 As Single
     End Structure
@@ -315,7 +315,7 @@ Public Class Car_Model
 
 
     Public Class MODEL
-        Public polynum, vertnum As Short
+        Public polynum, vertnum As UShort
         Public polyl() As MODEL_POLY_LOAD
         Public vexl() As MODEL_VERTEX_MORPH
     End Class

@@ -8,3 +8,13 @@ C:\Users\Kallel\Documents\Visual Studio 2008\Projects\sunshade\sunshade\obj\Debu
 C:\Users\Kallel\Documents\Visual Studio 2008\Projects\sunshade\sunshade\obj\Debug\sunshade.exe
 C:\Users\Kallel\Documents\Visual Studio 2008\Projects\sunshade\sunshade\obj\Debug\sunshade.xml
 C:\Users\Kallel\Documents\Visual Studio 2008\Projects\sunshade\sunshade\obj\Debug\sunshade.pdb
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\sunshade\sunshade\obj\Debug\sunshade.exe
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\sunshade\sunshade\obj\Debug\sunshade.xml
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\sunshade\sunshade\bin\Debug\sunshade.exe
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\sunshade\sunshade\bin\Debug\sunshade.pdb
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\sunshade\sunshade\bin\Debug\sunshade.xml
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\sunshade\sunshade\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\sunshade\sunshade\obj\Debug\sunshade.gui.resources
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\sunshade\sunshade\obj\Debug\sunshade.Resources.resources
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\sunshade\sunshade\obj\Debug\sunshade.vbproj.GenerateResource.Cache
+C:\Users\Kallel\Documents\GitHub\kay-s-mini-Re-Volt-tools\sunshade\sunshade\obj\Debug\sunshade.pdb

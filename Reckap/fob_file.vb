@@ -35,6 +35,11 @@
         End Function
 
         Sub Save()
+
+            Dim leng = IO.Directory.GetFiles(fpath & "_backup*.fo-").Length
+            IO.File.Copy(fpath, fpath & "_backup" & leng & ".fo-")
+
+
             On Error Resume Next
             Dim bw As New IO.BinaryWriter(New IO.FileStream(fpath, IO.FileMode.Open, IO.FileAccess.Write))
 

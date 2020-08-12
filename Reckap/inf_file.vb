@@ -1,4 +1,5 @@
 ﻿Imports System.Drawing
+Imports System.Text.RegularExpressions
 
 Module INF_FILE_MODULE
     Public PublicGateCanPass = False
@@ -100,13 +101,21 @@ Module INF_FILE_MODULE
         End If
 
     End Sub
+
+    Dim emptyRegEx As New Regex("\W+")
     Sub get3D(ByVal line$, ByVal key$, ByRef that As Vector3D)
         Dim tmp = ""
-        If InStr(line, key & vbTab) + InStr(line, key & " ") = 1 Then
-            tmp = Trim(cclean(Mid(line, Len(key) + 1)))
-            that = New Vector3D(Split(tmp, " ")(0), Split(tmp, " ")(1), Split(tmp, " ")(2))
-            tmp = Nothing
-        End If
+        Dim kss = emptyRegEx.Split(line)
+
+        Try
+            If UCase(kss(0)) = UCase(key) Then
+                that = New Vector3D(kss(1), kss(2), kss(3))
+            End If
+        Catch ex As Exception
+
+        End Try
+
+
     End Sub
     Sub setString(ByRef line$, ByVal key$, ByRef that$)
         If InStr(line, key & vbTab) + InStr(line, key & " ") = 1 Then

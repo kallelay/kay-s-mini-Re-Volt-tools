@@ -505,6 +505,8 @@ Public Class Form1
 
                 g.FillPolygon(New SolidBrush(Color.FromArgb(Inte * InitColor.R / 2, Inte * InitColor.G / 2, Inte * InitColor.B / 2)), pnts)
 
+                Application.DoEvents()
+
 
             End If
 

@@ -27,16 +27,16 @@ Module Module1
         If IO.File.Exists(FullPath & dirName & ".inf") = False Then
             Console.WriteLine("ERROR : " & dirName & ".inf doesn't exist!")
 
-            If My.Application.CommandLineArgs.Count = 0 Then
-                Console.WriteLine("ERROR: empty argument")
-            ElseIf IO.File.Exists(Command) Then
-                kayProcess(Command)
-                Exit Sub
-            Else
-                Console.WriteLine("ERROR: " & Command() & " doesn't exist")
-            End If
+            '  If My.Application.CommandLineArgs.Count = 0 Then
+            'Console.WriteLine("ERROR: empty argument")
+            'ElseIf IO.File.Exists(Command) Then
+            '     kayProcess(Command)
+            '      Exit Sub
+            ' Else
+            '     Console.WriteLine("ERROR: " & Command() & " doesn't exist")
+            '   End If
 
-    
+
         End If
 
         'param file get

@@ -30,10 +30,12 @@ Thanks:
 
 
 Changelog
-ÅNÅNÅNÅNÅNÅNÅNÅNÅN
+*********
+rev 3: INF file is no longer edited
 rev 2: Pick which files are to zip
 
 
 Conception et programmation par Kallel A.Y (kay)
 Rev 1 Sfax, le 14:38 2015/07/17
 Rev 2 Sfax, le 17:28 2015/08/26
+Rev 3 Sfax, le 9:41 AM 2020-08-12
