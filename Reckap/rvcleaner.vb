@@ -2,7 +2,7 @@
 Public Class Cleaner
 #Region "Helper functions"
     Private Shared Function getNormalFiles(ByVal trackname$) As String()
-        Dim temp(29 + 26 * 7) As String
+        Dim temp(30 + 26 * 7) As String
 
         Dim offs = 26
         Dim i As Integer

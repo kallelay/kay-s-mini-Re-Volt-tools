@@ -36,8 +36,8 @@
 
         Sub Save()
 
-            Dim leng = IO.Directory.GetFiles(fpath & "_backup*.fo-").Length
-            IO.File.Copy(fpath, fpath & "_backup" & leng & ".fo-")
+            Dim leng = IO.Directory.GetFiles(FullPath, dirName & "_backup*.fo-").Length
+            IO.File.Copy(fpath, FullPath & dirName & "_backup" & leng & ".fo-")
 
 
             On Error Resume Next
